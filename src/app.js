@@ -83,7 +83,7 @@ app.get('/products', (req, res) => {
 app.get('/help/*', (req, res) => {
     res.render('404', {
         title: '404',
-        name: 'Andrew Mead',
+        name: 'Adeel Butt',
         errorMessage: 'Help article not found.'
     })
 })
